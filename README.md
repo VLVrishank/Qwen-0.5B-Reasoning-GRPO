@@ -14,7 +14,8 @@ The reward progression graphs reveal a distinct two-phase learning process over 
 1. **Format Mastery (Steps 0-15):** The model rapidly learns the required XML tag structure. The Format Score climbs aggressively and pegs at the maximum (13 points) very early in the training run.
 2. **Logic Emergence (Steps 15-75):** Once the format is locked in, the Correctness Score begins to register. While highly volatile (bouncing between 0 and 8+ points), this confirms the model stops zeroing out and begins successfully exploring the mathematical logic needed to solve the prompts, which drives the Total Reward variance.
 
-![Reward Progression](<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/e108bc86-e0c4-4918-8a65-13757c1ba537" />)
+<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/17cff4d5-7f7c-4fa9-8d2a-b7d458711179" />
+
 
 ---
 
