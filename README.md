@@ -27,9 +27,8 @@ Here is an example of the 0.5B model solving a GSM8K-style problem after the ini
 
 <img width="1167" height="413" alt="image" src="https://github.com/user-attachments/assets/ab80a9f2-ed8c-4081-8041-15b1dfd633b7" />
 
-### Failed Case
-Despite mastering the format, the model sometimes exhibits "logic drift" on multi-step arithmetic. It occasionally introduces irrelevant variables (e.g., temporal variables not present in the prompt) and struggles to maintain mathematical consistency over longer chains of thought.
-<img width="1668" height="438" alt="image" src="https://github.com/user-attachments/assets/604ec0b6-9380-4a97-b3ff-0a06748e04f8" />
+
+
 
 
 ---
