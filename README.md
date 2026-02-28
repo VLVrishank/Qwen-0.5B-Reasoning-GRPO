@@ -27,11 +27,11 @@ Here is an example of the 0.5B model solving a GSM8K-style problem after the ini
 
 <img width="1167" height="413" alt="image" src="https://github.com/user-attachments/assets/ab80a9f2-ed8c-4081-8041-15b1dfd633b7" />
 
-Despite mastering the format, the model exhibits "logic drift" on multi-step arithmetic. It occasionally introduces irrelevant variables (e.g., temporal variables not present in the prompt) and struggles to maintain mathematical consistency over longer chains of thought.
+### Failed Case
+Despite mastering the format, the model sometimes exhibits "logic drift" on multi-step arithmetic. It occasionally introduces irrelevant variables (e.g., temporal variables not present in the prompt) and struggles to maintain mathematical consistency over longer chains of thought.
 <img width="1668" height="438" alt="image" src="https://github.com/user-attachments/assets/604ec0b6-9380-4a97-b3ff-0a06748e04f8" />
 
 
-While the model perfectly adheres to the XML formatting (achieving a maximum Format Score of 13/13), the bottleneck remains its 500M parameter scale. The model effectively learns **how** to think (structure) before it learns **what** to think (mathematical precision), a classic trade-off in extreme model compression at 500M parameters.
 ---
 
 ## Tech Stack & Methodology
