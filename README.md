@@ -22,18 +22,8 @@ The reward progression graphs reveal a distinct two-phase learning process over 
 ## Logic Emergence (Example)
 Here is an example of the 0.5B model solving a GSM8K-style problem after the initial GRPO steps:
 
-> **User:** If Molly has 2 apples and buys 3 more, then gives 1 to Pete, how many does she have?
->
-> **Model:**
-> <think>
-> 1. Start with 2 apples.
-> 2. Add 3 apples: 2 + 3 = 5.
-> 3. Give 1 apple away: 5 - 1 = 4.
-> 4. The final count is 4.
-> </think>
-> <answer>
-> 4
-> </answer>
+<img width="1167" height="413" alt="image" src="https://github.com/user-attachments/assets/ab80a9f2-ed8c-4081-8041-15b1dfd633b7" />
+
 
 ---
 
